@@ -1,0 +1,5 @@
+ switch (e.key.keysym.sym)
+        {
+        case SDLK_RIGHT:
+            playerX += playerSpeed;
+            break;
